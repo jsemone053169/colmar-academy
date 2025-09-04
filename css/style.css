@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(80, 78, 78);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+  height: 4rem;  
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  position: absolute;
+  left: 1.5rem;
+}
+
+.header-links {
+  display: flex;
+  position: absolute;
+  right: 1.5rem;
+  gap: 1rem;
+}
+
+.sec-1 {
+  max-width: 1100px;
+  height: auto;
+  position: relative;
+  background-color: rgb(235, 227, 227);
+  top: 4.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.sec-1 img {
+  width: 60%;
+  height: auto;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sec-1-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.sec-1-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.sec-1-description {
+  font-size: .85rem;
+  font-weight: 500;
+}
+
+.start-here-btn {
+  width: 12.5rem;
+  height: 2rem;
+  border: none;
+  background-color: rgb(75, 73, 73);
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.sec-2 {
+  position: relative;
+  top: 4.2rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 1.5rem;
+  max-width: 1100px;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-content img {
+  width: 100%;
+}
+
+.main-content p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 1.2rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.card {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  gap: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(236, 230, 230);
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+}
+
+.card:hover {
+  background-color: rgb(235, 227, 227);
+}
+
+.card img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card-content {
+  display: inline-block;
+  width: 65%;
+  height: auto;
+  align-content: center;
+  line-height: 0.5rem;
+}
+
+.card-content h3 {
+  font-size: 0.95rem;
+}
+
+.card-content p {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.card-content a {
+  font-size: 0.75rem;
+}
+
+.sec-3 {
+  max-width: 1100px;
+  position: relative;
+  top: 4.2rem;
+  background-color: rgb(235, 227, 227);
+  align-items: center;
+}
+
+.sec-3 h2 {
+  padding-top: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.course-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.course-desc {
+  background-color: white;
+}
+
+.course-desc img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.course-desc h3 {
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+.course-desc p {
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+  line-height: 1.5rem;;
+}
+
